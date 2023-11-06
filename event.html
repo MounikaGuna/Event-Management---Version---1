@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+    <link rel="stylesheet" href="static resources/event.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <header class="header">
+        <a herf="#" class="logo">Awesome Events</a>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+        <nav class="navbar">
+            <a href="#home" style="--i:0;">Home</a>
+            <a href="#about" style="--i:1;">Features</a>
+            <a href="#service" style="--i:2;">Services</a>
+            <a href="#gallery" style="--i:3;">Gallery</a>
+            <a href="#review" style="--i:4;">Review</a>
+            <a href="#contact" style="--i:4;">Contact</a>
+            
+
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-cont">
+            <div class="ho-co">
+                <h1 class="h1" style="font-size: 30px;">The Best Time To Celebrate</h1>
+                <p id="pa" style="font-size: 20px;font-weight: bold;">Cakes are special.Every birthday, every celebration ends with something sweet, a cake, and people remember.</p>
+                <a href="#service" class="btn">Explore Events</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>Our Features</h2>
+        <div class="card-cont">
+            <div class="card">
+                <img src="static resources/teams.jpeg" alt="team">
+                <div class="card-content">
+                    <h3>About Us</h3>
+                    <p style="color:black;font-weight: bold;margin-bottom: 8px;">Friendly Team</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique quidem rerum autem sit officia temporibus perferendis sint amet recusandae a fuga porro libero.</p>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <img src="static resources/venue.jpg" alt="team">
+                <div class="card-content">
+                    <h3>Our Venues</h3>
+                    <p style="color:black;font-weight: bold;margin-bottom: 8px;">Perfect Venues</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique quidem rerum autem sit officia temporibus perferendis sint amet recusandae a fuga porro libero.</p>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <img src="static resources/parties.jpg" alt="team">
+                <div class="card-content">
+                    <h3>Our Parties</h3>
+                    <p style="color:black;font-weight: bold;margin-bottom: 8px;">Unique Scenarios</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique quidem rerum autem sit officia temporibus perferendis sint amet recusandae a fuga porro libero.</p>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <img src="static resources/review.jpeg" alt="team">
+                <div class="card-content">
+                    <h3>Clients Reviews</h3>
+                    <p style="color:black;font-weight: bold;margin-bottom: 8px;">Unforgettable Time</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique quidem rerum autem sit officia temporibus perferendis sint amet recusandae a fuga porro libero.</p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <h2>Our Services</h2>
+        <div class="common">
+        <div class="top">
+            <div class="left">
+                <img src="static resources/service1.jpg" alt="img">          
+            </div>
+            <div class="right">
+                <div class="textbox">
+                    <p><b>Corporate</b></p>
+                    <h1>Corporate Meetings</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit rerum obcaecati ipsam, earum quos dicta quasi cum doloribus, non, magnam totam provident?
+                    Voluptatibus impedit rerum ipsam in voluptates omnis corporis.</p>
+                    <pre><b>4 hours        Upto 50 persons</b></pre>
+                    <a href="" class="btn">From $1200</a>
+                </div>
+            </div>
+        </div>
+        <div class="top">
+            <div class="left">
+                <img src="static resources/service2.png" alt="img">          
+            </div>
+            <div class="right">
+                <div class="textbox">
+                    <p><b>Parties</b></p>
+                    <h1>Birthday parties</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit rerum obcaecati ipsam, earum quos dicta quasi cum doloribus, non, magnam totam provident?
+                    Voluptatibus impedit rerum ipsam in voluptates omnis corporis.</p>
+                    <pre><b>4-8 hours      Upto 50 persons</b></pre>
+                    <a href="" class="btn">From $800</a>
+                </div>
+            </div>
+        </div>
+        <div class="top">
+            <div class="left">
+                <img src="static resources/service5.jpeg" alt="img">          
+            </div>
+            <div class="right">
+                <div class="textbox">
+                    <p><b>Parties</b></p>
+                    <h1>Masquarade parties</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit rerum obcaecati ipsam, earum quos dicta quasi cum doloribus, non, magnam totam provident?
+                    Voluptatibus impedit rerum ipsam in voluptates omnis corporis.</p>
+                    <pre><b>4-8 hours      Upto 15 persons</b></pre>
+                    <a href="" class="btn">From $549</a>
+                </div>
+            </div>
+        </div>
+        <div class="top">
+            <div class="left">
+                <img src="static resources/service4.jpeg" alt="img">          
+            </div>
+            <div class="right">
+                <div class="textbox">
+                    <p><b>Family</b></p>
+                    <h1>Anniversaries</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit rerum obcaecati ipsam, earum quos dicta quasi cum doloribus, non, magnam totam provident?
+                    Voluptatibus impedit rerum ipsam in voluptates omnis corporis.</p>
+                    <pre><b>1-3 days       Upto 150 persons</b></pre>
+                    <a href="" class="btn">From $3000</a>
+                </div>
+            </div>
+        </div>
+        <div class="top">
+            <div class="left">
+                <img src="static resources/service6.jpeg" alt="img">          
+            </div>
+            <div class="right">
+                <div class="textbox">
+                    <p><b>Parties</b></p>
+                    <h1>Graduation and prom nights</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit rerum obcaecati ipsam, earum quos dicta quasi cum doloribus, non, magnam totam provident?
+                    Voluptatibus impedit rerum ipsam in voluptates omnis corporis.</p>
+                    <pre><b>4 hours        Upto 30 persons</b></pre>
+                    <a href="" class="btn">From $2499</a>
+                </div>
+            </div>
+        </div>
+        <div class="top">
+            <div class="left">
+                <img src="static resources/service3.jpg" alt="img">          
+            </div>
+            <div class="right">
+                <div class="textbox">
+                    <p><b>Family</b></p>
+                    <h1>Family celebrations</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit rerum obcaecati ipsam, earum quos dicta quasi cum doloribus, non, magnam totam provident?
+                    Voluptatibus impedit rerum ipsam in voluptates omnis corporis.</p>
+                    <pre><b>4-6 hours      4-12 persons</b></pre>
+                    <a href="" class="btn">From $699</a>
+                </div>
+            </div>
+        </div>
+    </div>
+                    
+        
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h2>Our Gallery</h2>
+    <div class="gall">
+        <div>
+            <img src="static resources/gall1.jpeg" alt="img">
+        </div>
+        <div class="v-stretch">
+            <img src="static resources/gall2.jpeg" alt="img">
+        </div>
+        <div class="h-stretch">
+            <img src="static resources/gall3.jpg" alt="img">
+        </div>
+        <div>
+            <img src="static resources/gall4.jpg" alt="img">
+        </div>
+        <div>
+            <img src="static resources/gall5.jpeg" alt="img">
+        </div>
+        <div class="v-stretch">
+            <img src="static resources/gall6.jpg" alt="img">
+        </div>
+        <div class="big-stretch">
+            <img src="static resources/gall7.jpg" alt="img">
+        </div>
+        <div>
+            <img src="static resources/gall8.jpeg" alt="img">
+        </div>
+        <div class="h-stretch">
+            <img src="static resources/gall9.jpg" alt="img">
+        </div>
+        <div>
+            <img src="static resources/gall10.jpg" alt="img">
+        </div>
+        <div>
+            <img src="static resources/gall1.jpeg" alt="img">
+        </div>
+        <div>
+            <img src="static resources/gall2.jpeg" alt="img">
+        </div>
+        <div class="v-stretch">
+            <img src="static resources/gall3.jpg" alt="img">
+        </div>
+        <div>
+            <img src="static resources/gall4.jpg" alt="img">
+        </div>
+        <div class="big-stretch">
+            <img src="static resources/gall5.jpeg" alt="img">
+        </div>
+        <div>
+            <img src="static resources/gall6.jpg" alt="img">
+        </div>
+        <div class="h-stretch">
+            <img src="static resources/gall7.jpg" alt="img">
+        </div>
+        <div>
+            <img src="static resources/gall8.jpeg" alt="img">
+        </div>
+        
+    </div>
+    </section>
+
+    <section class="review" id="review">
+        <h2>Customer Review</h2>
+        <div class="comm">
+            <div class="boxc">
+                <h3>Francesca</h3>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eius illo similique excepturi, possimus ipsam eveniet omnis quaerat autem mollitia enim. Sint, consectetur. </p>
+            </div>
+
+            <div class="boxc">
+                <h3>Xavier</h3>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eius illo similique excepturi, possimus ipsam eveniet omnis quaerat autem mollitia enim. Sint, consectetur. 
+                </p>
+            </div>
+
+            <div class="boxc">
+                <h3>Marco</h3>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eius illo similique excepturi, possimus ipsam eveniet omnis quaerat autem mollitia enim. Sint, consectetur. 
+                </p>
+            </div>
+
+            <div class="boxc">
+                <h3>Clara</h3>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eius illo similique excepturi, possimus ipsam eveniet omnis quaerat autem mollitia enim. Sint, consectetur. 
+                </p>
+            </div>
+        </div>
+
+        <div class="comm">
+            <div class="boxc">
+                <h3>Lucia</h3>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eius illo similique excepturi, possimus ipsam eveniet omnis quaerat autem mollitia enim. Sint, consectetur. </p>
+            </div>
+
+            <div class="boxc">
+                <h3>Ariel</h3>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eius illo similique excepturi, possimus ipsam eveniet omnis quaerat autem mollitia enim. Sint, consectetur.</p>
+            </div>
+
+            <div class="boxc">
+                <h3>Sophia</h3>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eius illo similique excepturi, possimus ipsam eveniet omnis quaerat autem mollitia enim. Sint, consectetur.</p>
+            </div>
+
+            <div class="boxc">
+                <h3>Gael</h3>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <i class='bx bxs-star' style="color: white;"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eius illo similique excepturi, possimus ipsam eveniet omnis quaerat autem mollitia enim. Sint, consectetur.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+       
+        <h2>Contact Us</h2>
+        <div class="form-co">
+        
+        <form>
+            <div class="form-cont">  
+                <label for="name">Name:</label>
+                <div class="fo-co">
+                <input type="text" id="name" name="name" size="30"placeholder="Enter your name"></div>
+            </div>
+            <div class="form-cont">
+                <label for="mail">Email:</label>
+                <div class="fo-co">
+                <input type="email" id="email" name="email" size="30"placeholder="Enter your email"></div>
+            </div>
+            
+            <div class="form-cont">
+                <label for="msg">Message:</label>
+                <div class="fo-co">
+                    <textarea name="text" id="text" cols="30" rows="10" placeholder="Enter your text here..."></textarea>
+                </div>
+            </div>
+            <div class="form-cont">
+                <input type="submit" value="Submit" style="color: black;height: 30px;width: 70px;font-weight: bold;font-size: 15px;">
+            </div>
+        </form>
+        </div>
+    </section>  
+    <footer>     
+        <div class="footer">
+            <div class="row">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+
+        <div class="row">
+        <ul>
+            <li><a href="#about">Features</a></li>
+            <li><a href="#service">Our Services</a></li>
+            <li><a href="#review">Reviews</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+
+        <div class="row">
+            Event Copyright © 2021 Awesome - All rights reserved 
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
